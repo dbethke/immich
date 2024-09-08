@@ -1,0 +1,4 @@
+.idea/
+@eaDir/
+*.env
+secrets_*.txt
