@@ -66,3 +66,7 @@ services:
 
 volumes:
   model-cache:
+  immich-database:
+    external: true
+  immich-upload:
+    external: true
