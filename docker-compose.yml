@@ -76,5 +76,11 @@ volumes:
   model-cache:
   immich-database:
     external: true
-  immich-upload:
-    external: true
+  #immich-upload:
+  #  external: true
+  storzilla-immich:
+    driver: local
+    driver_opts:
+      type: nfs
+      o: addr=storzilla.bethke.casa,nolock,soft,rw
+      device: ":/volume1/immich"
